@@ -1,0 +1,17 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(245, 241, 241, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    width: 300px; /* Specify the width */
+    height: 320px; /* Specify the height */
+    /* Add a 1px solid border with a light gray color */
+    padding: 10px; /* Add some padding to the card content */
+}
+.card-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line if needed */
+    margin-top: 290px;
+  }
